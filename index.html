@@ -9,20 +9,23 @@
 </head>
 <body>
     <main>
-        <section class="checkbox">
-            <div class="box" onclick="playerMark('top-left')"><p aria-selected="false" id="top-left"></p></div>
+        <section class="checkboxes">
+            <div class="box" onclick="playerMark('top-left')"><p class="checkbox" id="top-left"></p></div>
             <div class="box" onclick="playerMark('top-middle')"><p id="top-middle"></p></div>
             <div class="box" onclick="playerMark('top-right')"><p id="top-right"></p></div>
         </section>
-        <section class="checkbox">
-            <div class="box" onclick="playerMark('middle-left')"><p id="middle-left"></p></div>
-            <div class="box" onclick="playerMark('middle-middle')"><p id="middle-middle"></p></div>
-            <div class="box" onclick="playerMark('middle-right')"><p id="middle-right"></p></div>
+        <section class="checkboxes">
+            <div class="box" onclick="playerMark('middle-left')"><p class="checkbox" id="middle-left"></p></div>
+            <div class="box" onclick="playerMark('middle-middle')"><p class="checkbox" id="middle-middle"></p></div>
+            <div class="box" onclick="playerMark('middle-right')"><p class="checkbox" id="middle-right"></p></div>
         </section>
-        <section class="checkbox">
-            <div class="box" onclick="playerMark('bottom-left')"><p id="bottom-left"></p></div>
-            <div class="box" onclick="playerMark('bottom-middle')"><p id="bottom-middle"></p></div>
-            <div class="box" onclick="playerMark('bottom-right')"><p id="bottom-right"></p></div>
+        <section class="checkboxes">
+            <div class="box" onclick="playerMark('bottom-left')"><p class="checkbox" id="bottom-left"></p></div>
+            <div class="box" onclick="playerMark('bottom-middle')"><p class="checkbox" id="bottom-middle"></p></div>
+            <div class="box" onclick="playerMark('bottom-right')"><p class="checkbox" id="bottom-right"></p></div>
+        </section>
+        <section>
+            <button onclick="resetGame()">Reset</button>
         </section>
     </main>
     <script src="index.js"></script>
