@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="chrome://branding/content/about-logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="checkbox">
+            <div class="box" onclick="playerMark('top-left')"><p aria-selected="false" id="top-left"></p></div>
+            <div class="box" onclick="playerMark('top-middle')"><p id="top-middle"></p></div>
+            <div class="box" onclick="playerMark('top-right')"><p id="top-right"></p></div>
+        </section>
+        <section class="checkbox">
+            <div class="box" onclick="playerMark('middle-left')"><p id="middle-left"></p></div>
+            <div class="box" onclick="playerMark('middle-middle')"><p id="middle-middle"></p></div>
+            <div class="box" onclick="playerMark('middle-right')"><p id="middle-right"></p></div>
+        </section>
+        <section class="checkbox">
+            <div class="box" onclick="playerMark('bottom-left')"><p id="bottom-left"></p></div>
+            <div class="box" onclick="playerMark('bottom-middle')"><p id="bottom-middle"></p></div>
+            <div class="box" onclick="playerMark('bottom-right')"><p id="bottom-right"></p></div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
